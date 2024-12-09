@@ -1,0 +1,237 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    #aboutMe {
+        width: 700px;
+        margin: 100px auto;
+        margin-top: 100px;
+    }
+
+    #aboutMeP {
+        width: 600px;
+    }
+
+    .squarePic {
+        width: 180px;
+        height: 180px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    #nameDiv {
+        display: block;
+    }
+
+    #mirrorball {
+        display: none;
+    }
+
+    #bow {
+        display: none;
+    }
+
+    #myHobbies {
+        width: 700px;
+    }
+
+    #contactMe {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #braceletsDiv {
+        width: 470px;
+        margin-left: 0;
+        margin-right: 50px;
+    }
+
+    #braceletsTitle {
+        width: 470px;
+    }
+
+    body {
+        padding-top: 80px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    #mirrorball {
+        width: 400px;
+        height: 400px;
+        top: 200px;
+        right: -250px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    #aboutMe {
+        width: 900px;
+    }
+
+    #aboutMeP {
+        width: 800px;
+    }
+
+    .squarePic {
+        width: 200px;
+        height: 200px;
+    }
+
+    #myHobbies {
+        width: 900px;
+    }
+
+    #braceletsDiv {
+        margin-right: 50px;
+        width: 650px;
+        margin-left: 0;
+    }
+
+    #braceletsTitle {
+        width: 650px;
+    }
+
+    #contactMe {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #bow {
+        height: 400px;
+        top: 1450px;
+        left: -100px;
+    }
+}
+
+@media (max-width: 767px) {
+    #mirrorball {
+        display: none;
+    }
+
+    #bow {
+        display: none;
+    }
+
+    #aboutMe {
+        width: 340px;
+        margin: 20px auto;
+    }
+
+    .squarePic {
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #contactMe {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #aboutMeP {
+        width: 340px;
+    }
+
+    .formInput,
+    #message {
+        width: 300px;
+    }
+
+    .formText {
+        display: block;
+        width: 300px;
+    }
+
+    form {
+        width: 300px;
+    }
+
+    #myHobbies {
+        width: 360px
+    }
+
+    .hobbieDiv {
+        margin-left: 20px;
+    }
+
+    #braceletsDiv {
+        width: 210px;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    #aboutMeWrap {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #myPic {
+        width: 300px;
+        height: 300px;
+        border-radius: 25px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    iframe {
+        width: 340px;
+
+    }
+
+    #nameDiv {
+        margin: 0 auto;
+    }
+
+    #quote {
+        text-align: center;
+    }
+
+    body {
+        padding-top: 100px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+
+    .menuButton {
+        display: flex;
+    }
+
+
+    nav {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        z-index: 2;
+        padding-top: 60px;
+        visibility: hidden;
+    }
+
+    a {
+        color: #FFFFE3;
+        background-color: #841111;
+        font-size: 32px;
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        text-align: right;
+        margin-top: 40px;
+    }
+}

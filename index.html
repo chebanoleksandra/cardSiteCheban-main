@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/adaptive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./src/assets/images/icon.png" type="image/x-icon">
+    <title>Cheban Oleksandra</title>
+</head>
+
+<body>
+    <header>
+        <div class="menuDiv">
+            <input id="menuToggle" type="checkbox">
+            <label class="menuButton" for="menuToggle">
+                <span></span>
+            </label>
+            <nav data-aos="fade-down">
+                <a href="#aboutMe">About Me</a>
+                <a href="#myHobbies">My Hobbies</a>
+                <a href="#contactMe">Contact Me</a>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <section id="aboutMe">
+            <div class="inlineWrapper" data-aos="fade-right" id="aboutMeWrap">
+                <img src="./src/assets/images/picture.jpg" alt="Portrait" class="squarePic" id="myPic">
+                <div id="nameDiv">
+                    <h1>CHEBAN OLEKSANDRA</h1>
+                    <h2 id="quote">I cry a lot but I am so productive! It’s an art ✨</h2>
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/track/01K4zKU104LyJ8gMb7227B?utm_source=generator"
+                        width="400" height="150" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </div>
+            </div>
+            <p id="aboutMeP" data-aos="fade-up">I am a 16 y. o. girl from Ukraine. I love writing code and aspire to be a Software
+                Developer. I am currently
+                a TOP student and I am very proud of it. I see my future in IT. IT STEP Academy and IT STEP College mean
+                a
+                lot to me, as both of them gave me the opportunity to learn more about beloved programming. Currently,
+                my
+                favorite language among those I studied is C++. As a person, I am very caring, thoughtful and
+                responsible.
+                Also, I am hardworking and always ready to help the others. My number-one goal is to be remembered as a
+                great human.</p>
+            <img src="./src/assets/images/mirrorball.png" alt="mirrorball" id="mirrorball" data-aos="fade-left">
+        </section>
+        <section id="myHobbies" data-aos="slide-up">
+            <h1>MY HOBBIES</h1>
+            <h2>I wanna be defined by the things that I love</h2>
+            <div class="inlineWrapper">
+                <img src="./src/assets/images/joMarch.png" alt="Jo March reading" class="squarePic">
+                <div class="hobbieDiv">
+                    <h2 class="hobbieTitle">READING</h2>
+                    <p class="hobbieP">My favorite books are Little Women, Solitaire, Lockwood & Co, Harry Potter,
+                        Pollyanna
+                        and more.</p>
+                </div>
+            </div>
+            <div class="inlineWrapper">
+                <div class="hobbieDiv" id="braceletsDiv">
+                    <h2 class="hobbieTitle" id="braceletsTitle">MAKING FRIENDSHIP BRACELETS</h2>
+                    <p class="hobbieP">A fun tradition that started with Taylor Swift’s song “You’re on your own, kid”
+                        is
+                        very special to me.</p>
+                </div>
+                <img src="./src/assets/images/bracelets.png" alt="friendship bracelets" class="squarePic">
+            </div>
+            <div class="inlineWrapper">
+                <img src="./src/assets/images/baking.png" alt="Cookies" class="squarePic">
+                <div class="hobbieDiv">
+                    <h2 class="hobbieTitle">BAKING</h2>
+                    <p class="hobbieP">Baking is a very calming activity, especially when done with those you love.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contactMe" data-aos="slide-up">
+            <h1 id="contactsTitle">CONTACT ME</h1>
+            <form action="#">
+                <label for="username" class="formText">Name*
+                    <input type="text" class="formInput" id="username" required>
+                </label>
+                <label for="emailInput" class="formText">E-mail*
+                    <input type="email" class="formInput" id="emailInput" required>
+                </label>
+                <label for="phoneNumber" class="formText">Phone number
+                    <input type="tel" class="formInput" id="phoneNumber" required>
+                </label>
+                <label for="message" class="formText">Message*
+                    <textarea name="message" id="message" required></textarea>
+                </label>
+                <button class="submitButton">Submit</button>
+            </form>
+        </section>
+        <img src="./src/assets/images/bow.png" alt="bow" id="bow" data-aos="fade-right">
+    </main>
+
+    <footer>
+        <p id="footerP">Cheban Oleksandra ©2024</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+
+    </script>
+</body>
+
+</html>
